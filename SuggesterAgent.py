@@ -163,7 +163,7 @@ class SuggesterAgent:
 
     def run_prompt_GPT(self, prompt: str) -> str:
         """Run a single prompt through the Anthropic model and return the response"""
-        api_key = "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"
+        api_key = "Your Key"
         client = OpenAI(api_key=api_key)
         model = "gpt-4o-2024-08-06"  # "meta-llama-3.1-70b-instruct"
         response = client.chat.completions.create(
